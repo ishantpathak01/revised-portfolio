@@ -12,7 +12,7 @@ const COMMANDS = {
 
 export default function Terminal() {
   const [history, setHistory] = useState([
-    { type: "out", text: "alex@portfolio — interactive shell v2.6.0" },
+    { type: "out", text: "Ishant@portfolio — interactive shell v2.6.0" },
     { type: "out", text: "Type 'help' to list available commands." },
   ]);
   const [input, setInput] = useState("");

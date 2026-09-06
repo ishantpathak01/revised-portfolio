@@ -41,7 +41,7 @@ export default function Terminal() {
         <span className="w-3 h-3 rounded-full bg-[#FF0055]/80" />
         <span className="w-3 h-3 rounded-full bg-[#FFB800]/80" />
         <span className="w-3 h-3 rounded-full bg-neon/80" />
-        <span className="ml-3 font-mono text-[11px] text-slate-500">alex@portfolio:~</span>
+        <span className="ml-3 font-mono text-[11px] text-slate-500">Ishant@portfolio:~</span>
       </div>
       <div ref={bodyRef} className="h-48 overflow-y-auto px-4 py-3 font-mono text-xs leading-relaxed">
         {history.map((line, i) =>
